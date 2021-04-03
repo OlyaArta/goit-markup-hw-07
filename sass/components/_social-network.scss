@@ -1,4 +1,4 @@
-.social-list {
+.social__list {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -7,7 +7,7 @@
     margin-right: 32px;
 }
 
-.social-list__link {
+.social__link {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -27,7 +27,7 @@
          }     
 }
 
-.social-list__icon {
+.social__icon {
     fill: currentColor;
 }
 

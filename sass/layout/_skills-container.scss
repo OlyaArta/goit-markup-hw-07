@@ -1,17 +1,17 @@
-.skills-container {
+.skills__container {
     display: flex;
 }
 
-.skills-container__set {
+.skills__set {
     display: flex;
     justify-content: space-between;
 }
 
-.skills-container__box:not(:last-child) {
+.skills__list:not(:last-child) {
     margin-right: 30px;
 }
 
-.skills-container__list {
+.skills__box {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -22,7 +22,7 @@
     border-radius: 4px;
 }
 
-.skills-container__title {
+.skills__title {
     font-family: var(--main-font);
     font-weight: 700;
     font-size: 14px;
@@ -33,7 +33,7 @@
     color: #212121;
 }
 
-.skills-container__item {
+.skills__text {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;

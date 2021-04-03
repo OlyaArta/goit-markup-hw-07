@@ -4,8 +4,9 @@
     padding-bottom: 60px;
 }
 
-.main-footer-box {
+.footer__container {
     display: flex;
+    align-items: baseline;
 }
 
 .footer-box__logo {
@@ -45,16 +46,14 @@
     color: rgba(255, 255, 255, 0.6);
 }
 
-.footer-box-second {
+.footer-social__container {
     display: flex;
     flex-direction: column;
     width: 206px;
-    height: 80px;
     margin-left: 70px;
-    padding-top: 12px;
 }
 
-.footer-list {
+.footer__list {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -74,13 +73,13 @@
     color: #FFFFFF;
 }
 
-.footer-list__item {
+.footer__item {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.footer-list__link {
+.footer__link {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -101,24 +100,22 @@
         }    
 }
 
-.footer-list__icon {
+.footer__icon {
     fill: currentColor;
 }
 
-.footer-box-third {
+.footer-form__container {
     display: flex;
     flex-direction: column;
     width: 570px;
-    height: 86px;
     margin-left: 93px;
-    padding-top: 12px;
 }
 
 .footer-form {
     display: flex;
 }
 
-.footer-form__mail-input {
+.footer__mail-input {
     height: 50px;
     width: 358px;
     padding: 16px 15px;
@@ -141,7 +138,7 @@
    }
 }        
 
-.footer-form__btn {
+.footer__btn {
     display: flex;
     align-items: center;
     justify-content: center;

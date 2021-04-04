@@ -171,7 +171,6 @@
     }
 
     .modal-form__term:focus + &::before {
-      
       box-shadow: 0 0 0 1px var(--accent-color);
       border-radius: 2px;
       background-color: var(--accent-color);

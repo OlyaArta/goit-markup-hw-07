@@ -15,7 +15,7 @@
     display: flex;
 }
 
-.navigation_list {
+.navigation__list {
     display: flex;
     align-items: center;
 }
@@ -77,13 +77,13 @@
     }
 }
 
-.information {
+.information__list {
     display: flex;
     align-items: center;
     margin-left: auto;
 }
 
-.information__list {
+.information__item:not(:last-child) {
     margin-right: 50px;
 }
 
